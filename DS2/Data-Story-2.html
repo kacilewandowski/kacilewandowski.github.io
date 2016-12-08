@@ -15,6 +15,55 @@
 		src:url(fonts/franklin-gothic-light.ttf);
 	}
 
+	/*TABLET*/
+@media (max-width: 880px) {
+	body {
+		margin: 10px;
+	}
+	.left {width: 100%;
+		float: none;
+	}
+
+	.right {
+		width: 80%;
+		float: none;
+		margin-left: none;
+		text-align: center;
+	}
+	
+	.map-wrap {
+		width: 30%;
+		margin-right: 0%;
+	}
+
+	.clear {
+		clear: both;
+	}
+}
+
+/*MOBILE 480px*/
+
+@media (max-width: 480px) {
+	
+	.right img {
+		width: 120%;
+		margin-right: 0;
+	}
+
+	.map-wrap {
+		width: 90%;
+		padding: 0% 5%;
+	}
+
+	.map-wrap img {
+		display: none;
+	}
+
+	.bottom-chart img {
+		width: 90%;
+	}
+}
+
 	#wrapper {
 		margin:40px;
 		color:#2a2a2a;
